@@ -1,0 +1,21 @@
+{
+    "name": "mrssoft/yii2-url-redirect",
+    "description": "Extension for redirection from old url to new one",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","redirect"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melnikov Ruslan",
+            "email": "mrs2000@inbox.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrssoft\\redirect\\": ""
+        }
+    }
+}
