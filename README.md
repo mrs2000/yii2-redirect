@@ -16,7 +16,7 @@ Add to config:
         'response' => [
             'as urlRedirect' => [
                 'class' => 'mrssoft\redirect\UrlBehavior',
-                'redirect => 'redirect' // UrlRedirect component
+                'redirect' => 'redirect' // UrlRedirect component
             ]
         ],
         ...
@@ -30,7 +30,6 @@ Add the table to the database:
         `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
         PRIMARY KEY (`old_url`)
     )
-    COLLATE='utf8_general_ci'
     ENGINE=InnoDB
 ```
 ### Usage

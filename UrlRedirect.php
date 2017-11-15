@@ -14,7 +14,6 @@ use yii\db\Query;
  * `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
  * PRIMARY KEY (`old_url`)
  * )
- * COLLATE='utf8_general_ci'
  * ENGINE=InnoDB;
  *
  */
